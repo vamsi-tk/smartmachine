@@ -88,11 +88,6 @@
             "img": "img/team/01.jpg",
             "name": "Vamsi Tatipamula",
             "job": "Founder/Director"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Sreekanth",
-            "job": "Principal Engineer"
         }
     ],
     "Contact": {
