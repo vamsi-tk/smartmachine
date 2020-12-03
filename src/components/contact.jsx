@@ -63,6 +63,7 @@ export class Contact extends Component {
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
                 <h3>Contact Info</h3>
+                <h4>United Kingdom</h4>
                 <p>
                   <span>
                     <i className="fa fa-map-marker"></i> Address
@@ -87,7 +88,7 @@ export class Contact extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-md-12">
+            {/*<div className="col-md-12">
               <div className="row">
                 <div className="social">
                   <ul>
@@ -112,6 +113,7 @@ export class Contact extends Component {
                 </div>
               </div>
             </div>
+    */}
           </div>
         </div>
         <div id="footer">
