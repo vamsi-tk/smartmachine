@@ -444,20 +444,31 @@ header .intro-text {
 #team {
   padding: 100px 0;
 }
+
 #team h4 {
   margin: 5px 0;
 }
+
+#team h3 {
+  margin: 5px 0;
+  color: cadetblue;
+  font-weight: bold;
+}
+
 #team .team-img {
   width: 240px;
 }
 #team .thumbnail {
+  margin-left: 190%;
   background: transparent;
   border: 0;
 }
+
 #team .thumbnail .caption {
-  padding: 10px 0 0 0;
+  padding: 0 0 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;

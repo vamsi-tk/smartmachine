@@ -11,15 +11,15 @@ export class Team extends Component {
               Meet the team who are leading the change across industries, functions, platforms and partnerships. At the forefront of reinvention, they lead teams across the globe to prepare businesses to reshape their future and emerge stronger, prepared for whatever lies ahead
             </p>
           </div>
-          <div id="row" alignItems="center">
+          <div id="row">
             {this.props.data
               ? this.props.data.map((d, i) => (
                   <div  key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                    <div className="thumbnail">
+                    <div className="thumbnail" >
                       {" "}
                       {/*<img src={d.img} alt="..." className="team-img" />*/}
                       <div className="caption">
-                        <h4>{d.name}</h4>
+                        <h3>{d.name}</h3>
                         <p>{d.job}</p>
                       </div>
                     </div>
