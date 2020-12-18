@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              Smart Machine Solutions
+            <img src="img/logo/logo.png" alt="Girl in a jacket" width="210" height="85" />
             </a>{" "}
           </div>
 
