@@ -1,7 +1,22 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com';
+
 
 export class Contact extends Component {
+  
   render() {
+    function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_sb0xtqb', 'template_u07u2dm', e.target, 'user_bAmEFd2KONm9DpWzfCR4w')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
     return (
       <div>
         <div id="contact">
@@ -15,7 +30,7 @@ export class Contact extends Component {
                     will get back to you as soon as possible.
                   </p>
                 </div>
-                <form name="sentMessage" id="contactForm" netlify>
+                <form name="sentMessage" id="contactForm" onSubmit={sendEmail}>
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
@@ -25,7 +40,7 @@ export class Contact extends Component {
                           className="form-control"
                           placeholder="Name"
                           required="required"
-                          name="FullName"
+                          name="name"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
@@ -38,7 +53,7 @@ export class Contact extends Component {
                           className="form-control"
                           placeholder="Email"
                           required="required"
-                          name="emailID"
+                          name="email"
                         />
                         <p className="help-block text-danger"></p>
                       </div>
