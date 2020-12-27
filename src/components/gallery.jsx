@@ -23,7 +23,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>PROJECT MANAGER</h4>
+                        <h4>Internships</h4>
                       </div>
                       <img
                         src="img/portfolio/01-small.jpg"

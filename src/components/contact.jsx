@@ -10,6 +10,7 @@ export class Contact extends Component {
     emailjs.sendForm('service_sb0xtqb', 'template_u07u2dm', e.target, 'user_bAmEFd2KONm9DpWzfCR4w')
       .then((result) => {
           console.log(result.text);
+          console.log("Submitting complete", result.success);
       }, (error) => {
           console.log(error.text);
       });
@@ -23,7 +24,7 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>Get In Touch with Us</h2>
                   <p>
                     Please fill out the form below to send us an email and we
                     will get back to you as soon as possible.
@@ -56,6 +57,32 @@ export class Contact extends Component {
                         />
                         <p className="help-block text-danger"></p>
                       </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-group">
+                        <input
+                          type="phnumber"
+                          id="phnumber"
+                          className="form-control"
+                          placeholder="Ph Number"
+                          required="required"
+                          name="phnumber"
+                        />
+                        <p className="help-block text-danger"></p>
+                      </div>        
+                    </div>
+                    <div className="col-md-6">
+                      <div className="form-group">
+                        <input
+                          type="stuwrk"
+                          id="stuwrk"
+                          className="form-control"
+                          placeholder="Student or Working Professional?"
+                          required="required"
+                          name="stuwrk"
+                        />
+                        <p className="help-block text-danger"></p>
+                      </div>        
                     </div>
                   </div>
                   <div className="form-group">
