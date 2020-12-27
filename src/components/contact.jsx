@@ -3,7 +3,6 @@ import emailjs from 'emailjs-com';
 
 
 export class Contact extends Component {
-  
   render() {
     function sendEmail(e) {
     e.preventDefault();
