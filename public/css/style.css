@@ -353,7 +353,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding:10rem;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -442,16 +442,16 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-  padding: 100px 0;
+  padding:10rem;
 }
 
 #team h4 {
-  margin: 5px 0;
+  margin: 1px 0;
 }
 
 #team h3 {
-  margin: 5px 0;
-  color: cadetblue;
+  margin: 1px 0;
+  color: #6372ff;
   font-weight: bold;
 }
 
@@ -466,8 +466,10 @@ header .intro-text {
 
 #team .thumbnail .caption {
   padding: 0 0 0 0;
-  color: #888;
+  color:#6372ff;
 }
+
+
 
 /* Contact Section */
 #contact {
