@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* index.css */ 
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding: 2px;
+}
+.modal > .content {
+  width: 100%;
+  max-width: 800px;
+  padding: 5px 5px;
+  margin: 25px 50px 75px;
+  border-style: hidden;
+  font-size: 16px;
+  padding: 25px 50px 75px 100px;
+}
+.modal > .actions {
+  margin: auto;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 28px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+button{
+  font-size: large;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+}
+table.customTable {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  color: #000000;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 2px;
+  border-color: #7EA8F8;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.customTable thead {
+  background-color: #7EA8F8;
+}
+a.applylink {
+  width: 100%;
+  text-align: center;
+  align-content: flex-end;
+}

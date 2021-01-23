@@ -117,7 +117,7 @@ export class Contact extends Component {
                   <br />
                   {this.props.data ? this.props.data.address2 : "loading"}
                   <br />
-                  <p>Contact Ph: 07424942942</p>
+                  <span>Contact Ph: 07424942942</span>
                 </p>
               </div>
               <div className="contact-item">

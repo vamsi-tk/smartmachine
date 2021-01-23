@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NewJobs from "./newjobs";
 
 export class Gallery extends Component {
   render() {
@@ -206,6 +207,7 @@ export class Gallery extends Component {
             </div>
           </div>
         </div>
+        <NewJobs></NewJobs>
       </div>
     );
   }

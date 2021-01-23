@@ -351,6 +351,25 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
+#newjobsport {
+  padding:10rem;
+}
+
+.avail {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.listofop{
+font-weight:bolder;
+font-family:'Courier New', Courier, monospace;
+text-align: center;
+font-size:x-large;
+text-decoration: underline;
+color: #5ca9fb;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding:10rem;
