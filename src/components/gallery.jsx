@@ -208,6 +208,7 @@ export class Gallery extends Component {
           </div>
         </div>
         <NewJobs></NewJobs>
+
       </div>
     );
   }

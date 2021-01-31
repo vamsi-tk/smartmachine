@@ -366,8 +366,14 @@ font-weight:bolder;
 font-family:'Courier New', Courier, monospace;
 text-align: center;
 font-size:x-large;
-text-decoration: underline;
-color: #5ca9fb;
+color: #666;
+}
+
+.JobLinkDoc{
+  font-weight: 100;
+  font-size:x-large;
+  font-weight:bold;
+
 }
 
 /* Portfolio Section */
