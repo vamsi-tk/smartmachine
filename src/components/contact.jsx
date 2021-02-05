@@ -112,12 +112,12 @@ export class Contact extends Component {
                     <i className="fa fa-map-marker"></i> Address
                   </span>
                   {this.props.data ? this.props.data.address1 : "loading"}
-                  <br />
+                  {/* <br />
                   <b>Alternative Contact</b>
                   <br />
                   {this.props.data ? this.props.data.address2 : "loading"}
                   <br />
-                  <span>Contact Ph: 07424942942</span>
+                  <span>Contact Ph: 07424942942</span> */}
                 </p>
               </div>
               <div className="contact-item">
