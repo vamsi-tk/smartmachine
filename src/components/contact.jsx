@@ -77,7 +77,7 @@ export class Contact extends Component {
                           type="stuwrk"
                           id="stuwrk"
                           className="form-control"
-                          placeholder="Student or Working Professional?"
+                          placeholder=""
                           required="required"
                           name="stuwrk"
                         />
