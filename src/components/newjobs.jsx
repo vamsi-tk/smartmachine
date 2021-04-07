@@ -11,7 +11,7 @@ export class NewJobs extends Component {
         <h2 >Available Opportunities</h2>
         <div className="listofop">
           <h4>
-        <p>Excited to join our journey?  <br/><br/> Please look out for new Opportunities at our LinkedIn New jobs section.
+        <p>Excited to be part of our journey?  <br/><br/> Please look out for new Opportunities at our LinkedIn New jobs section.
         <a href="https://www.linkedin.com/company/smart-machine-solutions/jobs/">Click Here.</a>
         
         </p>
