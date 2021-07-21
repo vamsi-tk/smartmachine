@@ -7,6 +7,7 @@ import Gallery from './gallery';
 import Team from './Team';
 import Contact from './contact';
 import $ from 'jquery';
+import NewJobs from './newjobs';
 
 export class App extends Component {
   state = {
@@ -42,6 +43,7 @@ export class App extends Component {
         <Services  data={this.state.resumeData.Services}/>
         <Gallery />
         {/*<Testimonials  data={this.state.resumeData.Testimonials}/>*/}
+        <NewJobs />
         <Team  data={this.state.resumeData.Team}/>
         <Contact  data={this.state.resumeData.Contact}/>
         </React.StrictMode>

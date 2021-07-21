@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="img/logo/logo.png" alt="Girl in a jacket" width="210" height="85" />
+            <img src="img/logo/newsmsrect.jpg" alt="New sms" width="250" height="90" />
             </a>{" "}
           </div>
 
@@ -58,11 +58,11 @@ export class Navigation extends Component {
                 </a>
               </li>
               
-              {/* <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
+              <li>
+                <a href="#newjobsport" className="page-scroll">
+                  Vacancies
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a href="#contact" className="page-scroll">
                   Contact
