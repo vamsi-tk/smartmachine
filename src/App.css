@@ -43,19 +43,16 @@
   font-size: 12px;
 }
 .modal > .header {
-  width: 100%;
+  width: 80%;
   font-size: 18px;
-  text-align: center;
+  text-align: top;
   padding: 2px;
 }
 .modal > .content {
   width: 100%;
-  max-width: 800px;
-  padding: 5px 5px;
-  margin: 25px 50px 75px;
+  max-width: 600px;
   border-style: hidden;
   font-size: 16px;
-  padding: 25px 50px 75px 100px;
 }
 .modal > .actions {
   margin: auto;
