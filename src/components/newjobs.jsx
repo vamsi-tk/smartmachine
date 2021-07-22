@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
 
-function Home() {
-  return <h2>Home</h2>;
-}
+// function Home() {
+//   return <h2>Home</h2>;
+// }
 
-function About() {
-  return <h2>About</h2>;
-}
+// function About() {
+//   return <h2>About</h2>;
+// }
 
-function Users() {
-  return <h2>Users</h2>;
-}
+// function Users() {
+//   return <h2>Users</h2>;
+// }
 
 export class NewJobs extends Component {
   
@@ -85,7 +85,7 @@ export class NewJobs extends Component {
       <td>21/05/2021</td>
       <td>Sponsorship Avialable</td>
     </tr>
-    <tr style={{cursor: 'hand'}}>
+    <tr >
       <th scope="row">5</th>
       <td>IT Consultant</td>
       <td>SMS21-ITC-2</td>
