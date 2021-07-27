@@ -3465,7 +3465,7 @@ input[type="button"].btn-block {
   width: 100%;
 }
 .fade {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity .15s linear;
        -o-transition: opacity .15s linear;
           transition: opacity .15s linear;
@@ -5864,7 +5864,7 @@ button.close {
   border: 0;
 }
 .modal-open {
-  overflow: hidden;
+  overflow: auto;
 }
 .modal {
   position: fixed;
@@ -5874,7 +5874,7 @@ button.close {
   left: 0;
   z-index: 1050;
   display: none;
-  overflow: hidden;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -5894,15 +5894,19 @@ button.close {
           transform: translate(0, 0);
 }
 .modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 .modal-dialog {
-  position: relative;
+  position:relative;
   width: auto;
   margin: 10px;
+  height: 100vh !important;
+  display: flex;
 }
 .modal-content {
+  margin: auto !important;
+  height: fit-content !important;
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -5916,6 +5920,7 @@ button.close {
 }
 .modal-backdrop {
   position: fixed;
+  opacity: 0.5;
   top: 0;
   right: 0;
   bottom: 0;
@@ -5925,7 +5930,7 @@ button.close {
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
-  opacity: 0;
+  opacity: 0.6;
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
@@ -5943,7 +5948,8 @@ button.close {
   line-height: 1.42857143;
 }
 .modal-body {
-  position: relative;
+  margin-left: 40px;
+  position:relative;
   padding: 15px;
 }
 .modal-footer {

@@ -53,6 +53,36 @@
 
 
     ],
+
+
+    "NewJobs": [{
+        "line1": "Liaise with internal/external clients to analyse business procedure, clarify client’s requirements and to define the scope of existing software, hardware, and network provision.",
+        "line2": "Undertake feasibility studies for major IT developments, incorporating costs and benefits and presents proposals to clients.",
+        "line3": "Communicate the impact of emerging technologies to clients and advises upon the potential introduction of such technology."
+    },
+    {
+        "line1": "fa fa-cart-arrow-down",
+        "line2": "OPERATIONS",
+        "line3": "Optimise your organisation and solve operational challenges to find and deliver growth opportunities"
+    },
+    {
+        "line1": "fa fa-cloud-download",
+        "line2": "DIGITAL TECHNOLOGY",
+        "lin3": "Our long-term Digital Technology Services help Fortune 500 enterprises and some of the world's fastest growing brands thrive in the digital landscape."
+    },
+    {
+        "line1": "fa fa-language",
+        "line2": "LEARNING SOLUTIONS",
+        "line3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+        "line1": "fa fa-plane",
+        "line2": "Lorem ipsum dolor",
+        "line3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+],
+
+
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",

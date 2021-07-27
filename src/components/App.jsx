@@ -43,7 +43,8 @@ export class App extends Component {
         <Services  data={this.state.resumeData.Services}/>
         <Gallery />
         {/*<Testimonials  data={this.state.resumeData.Testimonials}/>*/}
-        <NewJobs />
+        <NewJobs  data={this.state.resumeData.NewJobs}/>
+
         <Team  data={this.state.resumeData.Team}/>
         <Contact  data={this.state.resumeData.Contact}/>
         </React.StrictMode>
