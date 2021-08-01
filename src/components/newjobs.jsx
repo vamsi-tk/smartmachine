@@ -10,7 +10,6 @@ export class NewJobs extends Component {
       show2: false,
       show3: false,
       show4: false,
-      show5:false,
       close: false,
     };
   }
@@ -43,7 +42,7 @@ export class NewJobs extends Component {
                       <th scope="col">Status</th>
                       <th scope="col">Posted Date</th>
                       <th scope="col">Closed Date</th>
-                      <th scope="col">Eligibility to work in UK?</th>
+                      <th scope="col">Sponsorship Available?</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -53,11 +52,11 @@ export class NewJobs extends Component {
                     >
                       <th scope="row">1</th>
                       <td>IT Consultant</td>
-                      <td>SMS21-ITC-1</td>
-                      <td>Closed</td>
-                      <td>15/03/2021</td>
-                      <td>12/04/2021</td>
-                      <td>Sponsorship Avialable</td>
+                      <td>SMS21-ITC-4</td>
+                      <td>Open</td>
+                      <td>26/07/2021</td>
+                      <td>20/08/2021</td>
+                      <td>Yes</td>
                     </tr>
                     <Modal
                       show={this.state.show}
@@ -123,12 +122,10 @@ export class NewJobs extends Component {
                             industry standards and best practices.{" "}
                           </li>
                           <li>
-                            Bachelor's Degree in Computer Science, Information
-                            Systems, or related field.{" "}
+                            Bachelor's Degree in the related field.{" "}
                           </li>
-
                           <li>
-                            6+ years’ experience in the IT Infrastructure
+                            4+ years’ experience in the IT Infrastructure
                             management.{" "}
                           </li>
                         </ul>
@@ -150,12 +147,12 @@ export class NewJobs extends Component {
                       onClick={() => this.setState({ show1: true })}
                     >
                       <th scope="row">2</th>
-                      <td>Big Data Consultant</td>
-                      <td>SMS21-BDC-1</td>
-                      <td>Closed</td>
-                      <td>19/04/2021</td>
-                      <td>14/05/2021</td>
-                      <td>Sponsorship Avialable</td>
+                      <td>Data Scientist</td>
+                      <td>SMS21-DS-1</td>
+                      <td>Open</td>
+                      <td>25/07/2021</td>
+                      <td>14/08/2021</td>
+                      <td>Yes</td>
                     </tr>
                     <Modal
                       show={this.state.show1}
@@ -175,35 +172,35 @@ export class NewJobs extends Component {
                         >
                           <h3>Job Description:</h3>
                           <li>
-                            Big Data integration to Tableau using SQL database
-                            query to automate executive-level dashboards.
+                            The design, build and deployment of AI and ML models by collecting data 
+                            and requirements.
                           </li>
                           <li>
-                            BigData integration of OSS measurement into Quality
-                            standards and Quality Management Systems
+                            Working across a range of stakeholders, including product, industry SMEs 
+                            and software developers to produce consumable model outputs.
                           </li>
                           <li>
-                            Single Point of Contact for Customer experience
-                            management bigdata platform deployment,
-                            installation, commissioning, maintenance,
-                            administration and deliver contractual reports.
+                            Providing direction on the Machine Learning (ML) engineering and 
+                            operational activities and set-up needed to both productionise 
+                            produced models and optimise data pipelines and cloud consumption.
                           </li>
                           <li>
-                            Design and implement data module using ETL process
-                            and tools.
+                            Working with the Artificial Intelligence (AI) Architect to define 
+                            repeatable architectural patterns that can be used across the 
+                            enterprise with an empathise on the ability to scale as model 
+                            complexity and data inputs growth over time.
                           </li>
-                          Deploy CEM tool – SPI (module of SmartCare), from
-                          integration to commissioning, maintenance, and
-                          administration of the platform.
+                            Ensuring data is collected and analysed that enables models and 
+                            associated products to be evolved based on the understanding 
+                            of customer and commercial impact.
                           <li>
-                            Develop processes with Python programming to
-                            tracking new site progress and change requests.
+                            Helping to define MLOPs procedures and integrate with DevOps 
+                            teams to produce MLOPs functionality.
                           </li>
-                          R language for automation – Improving reliability with
-                          reporting & efficiency in resource management.
+                            Ensuring productionised models can be handed over to operational teams.
                           <li>
-                            Excellent management skills, maintain project plans
-                            and deadline.
+                            Ensuring that solutions meet current requirements and can 
+                            evolve to support future needs, minimising disruption.
                           </li>
                         </ul>
                         <ul
@@ -212,8 +209,8 @@ export class NewJobs extends Component {
                         >
                           <h3>Skills and Qualifications:</h3>
                           <li>
-                            Master's Degree in the related field with minimum 8
-                            years experience.{" "}
+                            Demonstrated ability to adapt to new technologies 
+                            and learn quickly.{" "}
                           </li>
                           <li>
                             Proven experience in an advanced level of Tableau,
@@ -222,14 +219,11 @@ export class NewJobs extends Component {
                           <li>
                             Hands-on with Python coding and demonstrated
                             experience in libraries such as - Pandas, NumPy,
-                            GeoPandas, OS, Pyodbc, etc.{" "}
+                            Tensorflow, Keras, OS, Pyodbc, etc.{" "}
                           </li>
-
                           <li>
-                            Sound understanding of data science techniques and
-                            Excellent knowledge of tools such as SAP Business
-                            Objects XI, OPTIMA, Advance MS-Office, Toad, VB
-                            macros.{" "}
+                            Sound understanding of data science techniques. 
+                            Deep Understanding of Machine Learning and AI techniques.{" "}
                           </li>
                         </ul>
                       </Modal.Body>
@@ -250,12 +244,12 @@ export class NewJobs extends Component {
                       onClick={() => this.setState({ show2: true })}
                     >
                       <th scope="row">3</th>
-                      <td>Business Analyst</td>
-                      <td>SMS21-BA-1</td>
-                      <td>Closed</td>
-                      <td>26/04/2021</td>
-                      <td>21/05/2021</td>
-                      <td>Sponsorship Avialable</td>
+                      <td>Financial Analyst</td>
+                      <td>SMS21-FA-1</td>
+                      <td>Open</td>
+                      <td>23/07/2021</td>
+                      <td>09/08/2021</td>
+                      <td>Yes</td>
                     </tr>
                     <Modal
                       show={this.state.show2}
@@ -275,31 +269,29 @@ export class NewJobs extends Component {
                         >
                           <h3>Job Description:</h3>
                           <li>
-                            Identify problems concerned with business strategy,
-                            policy, procedures, methods, and markets of the
-                            organisation seeking advice.
+                            Work to understand the current financial view, providing 
+                            a breakdown showing budget, current spend, what it is being 
+                            spent on (Resources, areas of work, tools etc) and the 
+                            value it is bringing. Perform Revenue and Volume variance analysis.
                           </li>
                           <li>
-                            Carry out Gap Analysis between new Business
-                            Requirements and Existing Capabilities.
+                            Perform product-/client-analytics to help to generating insights 
+                            that shape both business strategy and organic growth initiatives.
                           </li>
                           <li>
-                            Determine the appropriate method of data collection
-                            and research methodology, analyse, and interpret
-                            information gained and formulate and implement
-                            recommendations and solutions.
+                            Regularly update and support in liaising with Product Management, 
+                            Sales, Business leadership. Support quarterly budget updates and 
+                            monthly revenue estimates.
                           </li>
                           <li>
-                            Communicate and represent complex information in
-                            easily understandable visual representations with
-                            excellent written and presentation skills.
+                            Support the team with data/analysis requests and in extracting 
+                            data from the finance database.
                           </li>
-                          Examine existing business models and flows of data and
-                          design functional specifications and test plans for
-                          new systems to meet client’s needs.
+                            Provide Day to Day support to the business for all ad hoc 
+                            analysis requests.
                           <li>
-                            Create supporting documentation using appropriate
-                            Business Analysis Techniques.
+                            Opportunity to work across the finance function and to assist 
+                            in financial accounting on an ad hoc basis.
                           </li>
                         </ul>
                         <ul
@@ -307,19 +299,20 @@ export class NewJobs extends Component {
                           style={{ listStyleType: "unset" }}
                         >
                           <h3>Skills and Qualifications:</h3>
-                          <li>Proven Experience as a Business Analyst </li>
                           <li>
-                            Ability to demonstrate experience of various
-                            Business Analysis Techniques.{" "}
+                            Three to five years relevant experience in commercial 
+                            finance/analytics{" "}
+                          </li>
+                          <li>
+                            Experience in working with large/complex datasets and 
+                            with a multi-product setup{" "}
                           </li>
                           <li>
                             Excellent written, verbal and presentation skills.{" "}
                           </li>
-
                           <li>
-                            Proficient in the use of Word, Excel, PowerPoint,
-                            and Visio and Salesforce experience would be a great
-                            advantage{" "}
+                            Experience using business intelligence and data visualization software 
+                            such as Tableau.{" "}
                           </li>
                         </ul>
                       </Modal.Body>
@@ -341,11 +334,11 @@ export class NewJobs extends Component {
                     >
                       <th scope="row">4</th>
                       <td>Software Tester</td>
-                      <td>SMS21-ST-1</td>
-                      <td>Closed</td>
-                      <td>26/04/2021</td>
-                      <td>21/05/2021</td>
-                      <td>Sponsorship Avialable</td>
+                      <td>SMS21-ST-2</td>
+                      <td>Open</td>
+                      <td>26/07/2021</td>
+                      <td>20/08/2021</td>
+                      <td>Yes</td>
                     </tr>
                     <Modal
                       show={this.state.show3}
@@ -380,21 +373,25 @@ export class NewJobs extends Component {
                             Perform functional, unit and performance testing of
                             the entire product and application.
                           </li>
-                          Use version control tools such as CVS and subversion
-                          and Provide timely solutions.
+                            Use version control tools such as CVS and subversion
+                            and Provide timely solutions.
                           <li>
                             Apply quality engineering principles throughout the
                             Agile/Scrum product lifecycle.
                           </li>
-                          Work closely with clients to implement new systems.
-                          <li>Provide support and documentation.</li>
+                          <li>
+                            Work closely with clients to implement new systems.
+                            Provide support and documentation.
+                          </li>
                         </ul>
                         <ul
                           class="entry-content"
                           style={{ listStyleType: "unset" }}
                         >
                           <h3>Skills and Qualifications:</h3>
-                          <li>6+ years' experience as a software tester. </li>
+                          <li>
+                            4+ years' experience as a software tester.{" "}
+                          </li>
                           <li>
                             Knowledge of Software development life cycle and
                             software test life cycle.{" "}
@@ -403,7 +400,6 @@ export class NewJobs extends Component {
                             Hands-on experience with automation testing tools
                             Eclipse, Selenium and Junit.{" "}
                           </li>
-
                           <li>
                             Knowledge of test build tools such as Maven and
                             Jenkins.{" "}
@@ -431,12 +427,12 @@ export class NewJobs extends Component {
                       onClick={() => this.setState({ show4: true })}
                     >
                       <th scope="row">5</th>
-                      <td>IT Consultant</td>
-                      <td>SMS21-ITC-2</td>
-                      <td>Closed</td>
-                      <td>03/05/2021</td>
-                      <td>28/05/2021</td>
-                      <td>Sponsorship Avialable</td>
+                      <td>Telecommunications Consultant</td>
+                      <td>SMS21-TC-1</td>
+                      <td>Open</td>
+                      <td>23/07/2021</td>
+                      <td>07/08/2021</td>
+                      <td>Yes</td>
                     </tr>
                     <Modal
                       show={this.state.show4}
@@ -456,34 +452,30 @@ export class NewJobs extends Component {
                         >
                           <h3>Job Description:</h3>
                           <li>
-                            Liaise with internal/external clients to analyse
-                            business procedure, clarify client’s requirements
-                            and to define the scope of existing software,
-                            hardware, and network provision.
+                            undertake research and advise on all aspects of telecommunications 
+                            equipment, radar, telemetry and remote control systems, 
+                            data processing equipment, microwaves and other electronic equipment;
                           </li>
                           <li>
-                            Undertake feasibility studies for major IT
-                            developments, incorporating costs and benefits and
-                            presents proposals to clients.
+                            determine and specify appropriate production and/or 
+                            installation methods and quality and safety standards;
                           </li>
                           <li>
-                            Communicate the impact of emerging technologies to
-                            clients and advises upon the potential introduction
-                            of such technology.
+                            organise and establish control systems to monitor 
+                            performance and evaluate designs;
                           </li>
                           <li>
-                            Provide advice and assistance in the procurement,
-                            provision, delivery, installation, maintenance and
-                            use of IT systems and their environments.
+                            test, diagnose faults and undertakes repair of electronic equipment.
+                            Optimizes systems ensuring minimal cost and simplification in 
+                            compliance with the required performance;
                           </li>
-                          Examine existing business models and flows of data and
-                          design functional specifications and test plans for
-                          new systems to meet client’s needs.
+                            Prepare technical documentation for systems and telecommunication 
+                            requisitions and perform technical evaluations.
                           <li>
                             Research, analyse, evaluate, and monitor network
                             infrastructure and performance.
                           </li>
-                          Work closely with clients to implement new systems.
+                            Work closely with clients to implement new systems.
                           <li>
                             Effective communication skills (written and verbal)
                           </li>
@@ -494,21 +486,15 @@ export class NewJobs extends Component {
                         >
                           <h3>Skills and Qualifications:</h3>
                           <li>
-                            Proven experience as an IT Consultant/Architect.{" "}
-                          </li>
-                          <li>
-                            Experience in designing, developing, and
-                            implementing end to end data solutions based on
+                            Proven experience in designing, developing, and
+                            implementing solutions based on
                             industry standards and best practices.{" "}
                           </li>
                           <li>
-                            Bachelor's Degree in Computer Science, Information
-                            Systems, or related field.{" "}
+                            Bachelor's Degree in the related field.{" "}
                           </li>
-
                           <li>
-                            4+ years’ experience in the IT Infrastructure
-                            management.{" "}
+                            4+ years’ relevant experience.{" "}
                           </li>
                         </ul>
                       </Modal.Body>
@@ -523,105 +509,6 @@ export class NewJobs extends Component {
                         </div>
                       </Modal.Footer>
                     </Modal>
-
-                    <tr
-                      style={{ cursor: "hand" }}
-                      onClick={() => this.setState({ show5: true })}
-                    >
-                      <th scope="row">5</th>
-                      <td>IT Consultant</td>
-                      <td>SMS21-ITC-3</td>
-                      <td>Closed</td>
-                      <td>03/05/2021</td>
-                      <td>28/05/2021</td>
-                      <td>Sponsorship Avialable</td>
-                    </tr>
-                    <Modal
-                      show={this.state.show5}
-                      animation={true}
-                      size="lg"
-                      className=" shadow-lg border"
-                    >
-                      <Modal.Header className="text-info text-white text-center py-1">
-                        <Modal.Title className="text-center">
-                          <h2>JOB DESCRIPTION</h2>
-                        </Modal.Title>
-                      </Modal.Header>
-                      <Modal.Body className="py-0 border">
-                        <ul
-                          class="entry-content"
-                          style={{ listStyleType: "unset" }}
-                        >
-                          <h3>Job Description:</h3>
-                          <li>
-                            Liaise with internal/external clients to analyse
-                            business procedure, clarify client’s requirements
-                            and to define the scope of existing software,
-                            hardware, and network provision.
-                          </li>
-                          <li>
-                            Undertake feasibility studies for major IT
-                            developments, incorporating costs and benefits and
-                            presents proposals to clients.
-                          </li>
-                          <li>
-                            Communicate the impact of emerging technologies to
-                            clients and advises upon the potential introduction
-                            of such technology.
-                          </li>
-                          <li>
-                            Provide advice and assistance in the procurement,
-                            provision, delivery, installation, maintenance and
-                            use of IT systems and their environments.
-                          </li>
-                          Examine existing business models and flows of data and
-                          design functional specifications and test plans for
-                          new systems to meet client’s needs.
-                          <li>
-                            Research, analyse, evaluate, and monitor network
-                            infrastructure and performance.
-                          </li>
-                          Work closely with clients to implement new systems.
-                          <li>
-                            Effective communication skills (written and verbal)
-                          </li>
-                        </ul>
-                        <ul
-                          class="entry-content"
-                          style={{ listStyleType: "unset" }}
-                        >
-                          <h3>Skills and Qualifications:</h3>
-                          <li>
-                            Proven experience as an IT Consultant/Architect.{" "}
-                          </li>
-                          <li>
-                            Experience in designing, developing, and
-                            implementing end to end data solutions based on
-                            industry standards and best practices.{" "}
-                          </li>
-                          <li>
-                            Bachelor's Degree in Computer Science, Information
-                            Systems, or related field.{" "}
-                          </li>
-
-                          <li>
-                            4+ years’ experience in the IT Infrastructure
-                            management.{" "}
-                          </li>
-                        </ul>
-                      </Modal.Body>
-                      <Modal.Footer className="py-1 d-flex justify-content-center">
-                        <div>
-                          <Button
-                            variant="outline-dark"
-                            onClick={() => this.setState({ show5: false })}
-                          >
-                            Close
-                          </Button>
-                        </div>
-                      </Modal.Footer>
-                    </Modal>
-
                   </tbody>
                 </table>
               </div>
