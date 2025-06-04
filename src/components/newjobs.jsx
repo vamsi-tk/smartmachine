@@ -33,7 +33,7 @@ export class NewJobs extends Component {
                   </p>
                 </h4>
                 <br />
-                <table class="table">
+                {/*  <table class="table">
                   <thead>
                     <tr>
                       <th scope="col">#</th>
@@ -510,7 +510,7 @@ export class NewJobs extends Component {
                       </Modal.Footer>
                     </Modal>
                   </tbody>
-                </table>
+                </table>*/}
               </div>
             </p>
           </div>
